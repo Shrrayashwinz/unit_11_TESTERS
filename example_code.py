@@ -29,12 +29,22 @@ def divide(x, y):
     
     Returns:
       The result of dividing x by y.
-    """
-    
-    if y == 0:
-      raise ZeroDivisionError
+    """ 
+    try:
+      if y == 0:
+         raise ZeroDivisionError
+      if isinstance(x, str) or (str, y):
+         raise TypeError("You are forbidden from using strings, dummy!")
       
-    return x / y
+    
+    except ZeroDivisionError as ZDE:
+       return None
+    except TypeError as TE:
+       return None
+
+
+    else: 
+       return x / y
 
 
 
