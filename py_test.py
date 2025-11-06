@@ -5,7 +5,7 @@ Purpose: Test normalize_rotation function from Lab11_pcarswel-1.py using pytest.
 Date: November 3, 2025
 """
 
-from Lab11_pcarswel_1 import normalize_rotation
+from py_test import normalize_rotation
 import pytest
 
 def test_rotation_100():
