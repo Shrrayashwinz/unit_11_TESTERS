@@ -19,7 +19,7 @@ def normalize_rotation(degrees):
     Raises:
         ValueError: if input is not a number.
     """
-    if not isinstance(degrees, (int, float)):
+    if not isinstance(degrees, (float)):
         raise ValueError("Input must be a numeric value.")
     return degrees % 360
 
