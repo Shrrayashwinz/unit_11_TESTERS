@@ -38,8 +38,10 @@ def divide(x, y):
       
     
     except ZeroDivisionError as ZDE:
+       print(ZDE)
        return None
     except TypeError as TE:
+       print(TE)
        return None
 
 

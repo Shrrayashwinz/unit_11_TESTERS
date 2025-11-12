@@ -24,3 +24,4 @@ def test_is_even_correct_inputs():
 
 def test_divide_using_string():
     assert divide ('10', 2) == None
+
